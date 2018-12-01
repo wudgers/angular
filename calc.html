@@ -11,9 +11,32 @@
 </head>
 <body>
 <div ng-app="">
-    <p>think of a number</p>
-    <input type ="number" ng-model="yourNumber">
-    <p>{{ yourNumber }} x 6 = {{ yourNumber * 6}}</p>
+    <p>what times table</p>
+    <input type="number" ng-model="yourNumber">
+    <p>1 x {{ yourNumber }} = {{ yourNumber * 1}}</p>
+    <p>2 x {{ yourNumber }} = {{ yourNumber * 2}}</p>
+    <p>3 x {{ yourNumber }} = {{ yourNumber * 3}}</p>
+    <p>4 x {{ yourNumber }} = {{ yourNumber * 4}}</p>
+    <p>5 x {{ yourNumber }} = {{ yourNumber * 5}}</p>
+    <p>6 x {{ yourNumber }} = {{ yourNumber * 6}}</p>
+    <p>7 x {{ yourNumber }} = {{ yourNumber * 7}}</p>
+    <p>8 x {{ yourNumber }} = {{ yourNumber * 8}}</p>
+    <p>9 x {{ yourNumber }} = {{ yourNumber * 9}}</p>
+    <p>10 x {{ yourNumber }} = {{ yourNumber * 10}}</p>
+    <p>11 x {{ yourNumber }} = {{ yourNumber * 11}}</p>
+    <p>12 x {{ yourNumber }} = {{ yourNumber * 12}}</p>
+    <img ng-show="yourNumber >= 1" src="images/rabbit.png"/>
+    <img ng-show="yourNumber >= 2" src="images/frog.png"/>
+    <img ng-show="yourNumber >= 3" src="images/rabbit.png"/>
+    <img ng-show="yourNumber >= 4" src="images/frog.png"/>
+    <img ng-show="yourNumber >= 5" src="images/rabbit.png"/>
+    <img ng-show="yourNumber >= 6" src="images/frog.png"/>
+    <img ng-show="yourNumber >= 7" src="images/rabbit.png"/>
+    <img ng-show="yourNumber >= 8" src="images/frog.png"/>
+    <img ng-show="yourNumber >= 9" src="images/rabbit.png"/>
+    <img ng-show="yourNumber >= 10" src="images/frog.png"/>
+    <img ng-show="yourNumber >= 11" src="images/rabbit.png"/>
+    <img ng-show="yourNumber >= 12" src="images/frog.png"/>
 </div>
 </body>
 </html>
